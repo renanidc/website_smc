@@ -21,57 +21,141 @@
   <body>
 
     <!-- Barra navegação -->
-    <nav class="navbar navbar-default">
-      <div class="container">
-        
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" 
-                  data-toggle="collapse" data-target="#barra-navegacao">
-            <span class="sr-only">Alternar Menu</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="#" class="navbar-brand"><img class="img-logo" src="assets/img/icone.png"></a>
-        </div>
-
-        <div class="collapse navbar-collapse" id="barra-navegacao">
-
-          <ul class="nav navbar-nav navbar-right">
-            <li> <a href="#">home</a> </li>
-            <li> <a href="#">empresa</a> </li>
-            <li> <a href="#">clientes</a> </li>
-            <li> <a href="#">produtos</a> </li>
-
-            <li class="dropdown"> 
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                Minha Conta <span class="caret"></span>
-              </a> 
-              <ul class="dropdown-menu">
-                <li> <a href="#">Editar</a> </li>
-                <li> <a href="#">Logout</a> </li>
-              </ul>
-
-            </li>
-
-          </ul>
-
-        </div>
-
+    <nav>
+      <div class="nav-brand"><img class="logo" src="assets/img/logo.png"></div>
+      <ul>
+        <li><a href="https://facebook.com">Inicial</a></li>
+        <li><a href="#">Quem Somos</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Fazer Pedido</a></li>
+      </ul>      
+      <div class="button">
+        <a class="btn-open" href="#"></a>
       </div>
     </nav>
+
+
+    <div class="overlay">
+      <div class="wrap">
+        <ul class="wrap-nav">
+          <li><a href="#">Home</a>
+          <ul>
+            <li><a href="#">Página inicial</a></li>
+          </ul>
+          </li>
+          <li><a href="#">Quem Somos</a>
+          <ul>
+            <li><a href="https://www.google.hr/">Sobre nós</a></li>
+          </ul>
+          </li>
+          <li><a href="#">Produtos</a>
+          <ul>
+            <li><a href="#">Mais pedidos</a></li>
+            <li><a href="#">Fazer pedido</a></li>
+          </ul>
+          </li>
+          <li><a href="#">Contato</a>
+            <ul>
+              <li><a href="#">Fale conosco</a></li>
+              <li><a href="#">Sugestões ou reclamações</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="rodape-overlay">
+          <p>Adicionar rodapé blá blá blá blá</p>
+        </div>
+      </div>
+    </div>
     
-   	<div class="container">
+    <!--Inicio do container-->
 
-   		<div class="page-header">
-   			<h1>Sua Melhor Compra</h1>
-   		</div>
+   	<div class="container-fluid">
+
+   		<div class="col-md-12 banner"> 
+
+          <h1>SUA MELHOR COMPRA</h1>
+      </div>
+
+
+      <!--Seção de produtos mais pedidos-->
+      <div class="col-md-12 produtos-mais-pedidos">
+        <h3>Produtos mais pedidos</h3>
+
+        <div class="col-md-2 col-md-offset-1 produto">
+          <img class="img-responsive" src="assets/img/rolex.jpg">
+          <p>Relógio de luxo Rolex</p>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 produto">
+          <img class="img-responsive" src="assets/img/rolex.jpg">
+          <p>Relógio de luxo Rolex</p>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 produto">
+          <img class="img-responsive" src="assets/img/rolex.jpg">
+          <p>Relógio de luxo Rolex</p>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 produto">
+          <img class="img-responsive" src="assets/img/rolex.jpg">
+          <p>Relógio de luxo Rolex</p>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 produto">
+          <img class="img-responsive" src="assets/img/rolex.jpg">
+          <p>Relógio de luxo Rolex</p>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 produto">
+          <img class="img-responsive" src="assets/img/rolex.jpg">
+          <p>Relógio de luxo Rolex</p>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 produto">
+          <img class="img-responsive" src="assets/img/rolex.jpg">
+          <p>Relógio de luxo Rolex</p>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 produto">
+          <img class="img-responsive" src="assets/img/rolex.jpg">
+          <p>Relógio de luxo Rolex</p>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 produto">
+          <img class="img-responsive" src="assets/img/rolex.jpg">
+          <p>Relógio de luxo Rolex</p>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 produto">
+          <img class="img-responsive" src="assets/img/rolex.jpg">
+          <p>Relógio de luxo Rolex</p>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 produto">
+          <img class="img-responsive" src="assets/img/rolex.jpg">
+          <p>Relógio de luxo Rolex</p>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 produto">
+          <img class="img-responsive" src="assets/img/rolex.jpg">
+          <p>Relógio de luxo Rolex</p>
+        </div>
+
+      </div><!--Fim seção de produtos mais pedidos-->
+
+
       
-   	</div>
+   	</div><!--Fim do container-->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <footer class=rodape>
+      <p>Rodape blá blá blá blá blá blá</p>
+    </footer>
+
+    <!--Scripts js-->    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
   </body>
 </html>
