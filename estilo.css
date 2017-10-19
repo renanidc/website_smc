@@ -18,9 +18,13 @@ body {
 	padding: 0px;	
 }
 
+.barra-menu{
+	height: 130px;
+}
+
 /*Estilizar botão fechar do menu overlay*/
 .button {
-	display:inline;
+	display:block;
 	position:absolute;
 	right:50px;
 	top:6px;
@@ -60,7 +64,7 @@ body {
 }
 
 .logo{
-	width: 8%;
+	width: 100px;
 	margin-bottom: 4px;
 }
 
@@ -244,6 +248,7 @@ nav ul li a:hover {
 
 @media screen and (max-width:48em) {
 	.wrap ul.wrap-nav>li {
+		height: 80%;
 		width:100%;
 		padding:20px 0;
 		border-bottom:1px solid #575757;
@@ -264,9 +269,9 @@ nav ul li a:hover {
 }
 
 /*Ocultar banner em telas pequenas*/
-@media sreen and (min-width: 768px){
-
+@media only screen and (max-width : 768px) {
+	
 	.banner{
-		display: none;
-	}
+		/*display: none;*/ 
+	}	
 }
