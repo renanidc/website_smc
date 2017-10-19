@@ -1,7 +1,7 @@
 *{margin, padding, border: 0px;}
 
 a:active, a:link, a:visited{
-	color: #333;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -23,6 +23,7 @@ body {
 }
 
 .barra-menu{
+	background-color: #000; 
 	height: 130px;
 }
 
@@ -39,7 +40,7 @@ body {
 	text-decoration:none;
 }
 .btn-open:after {
-	color:#333;
+	color:#fff;
 	content:"\f0c9";
 	font-family:"FontAwesome";
 	transition-property:all .2s linear 0s;
@@ -67,9 +68,13 @@ body {
 	padding: 0px;
 }
 
+.destaque{
+	background-color: #92683C; 
+}
+
 .logo{
 	width: 100px;
-	margin-bottom: 4px;
+	margin: 5px 0 4px 0;
 }
 
 .navbar{
@@ -138,13 +143,17 @@ li {
 	height: 54px;
 }
 
-nav {
+nav { 
 	text-align:center;
 	width:100%;
 	position:relative;
 	height:auto;
 	overflow:hidden;
 	background:none;  
+}
+
+.nav-brand{
+	background-color: #000; 
 }
 
 nav ul {
@@ -156,7 +165,7 @@ nav ul li {
 }
 
 nav ul li a {
-	color:#333;
+	color:#fff;
 	display:inline-block;
 	padding:1em 3em;
 	text-decoration:none;
