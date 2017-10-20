@@ -72,6 +72,10 @@ body {
 	background-color: #92683C; 
 }
 
+footer{
+	margin-top: 5%;
+}
+
 .logo{
 	width: 100px;
 	margin: 5px 0 4px 0;
@@ -93,6 +97,7 @@ body {
 .navbar-default .navbar-nav>li>a{
 	color: #000;
 }
+
 
 .produtos-mais-pedidos h3{
 	margin: 30px 0px 30px 6%;
@@ -123,6 +128,20 @@ body {
 	color: #333;
 	font-size: 1.1em;
 	text-align: center;
+}
+
+.quem-somos{
+	padding-top: 2%; 
+}
+
+.quem-somos img{
+	width: 100%;
+}
+
+.quem-somos p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	text-align: justify;
 }
 
 .rodape{
